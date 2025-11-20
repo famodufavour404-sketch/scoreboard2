@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="panel">
+                <h3 id="sub">HOME</h3>
+                <span id="home-el">0</span>
+                <div class="btn-group">
+                <button onclick="homeadd(1)" class="btn">+1</button>
+                <button onclick="homeadd(5)" class="btn">+5</button>
+                <button onclick="homeadd(10)" class="btn">+10</button>
+                </div>
+
+            </div>
+            <div class="panel">
+                <h3 id="sub">GUEST</h3>
+                <span id="guest-el">0</span>
+                <div class="btn-group">
+                <button onclick="guestadd(1)" class="btn">+1</button>
+                <button onclick="guestadd(5)" class="btn">+5</button>
+                <button onclick="guestadd(10)" class="btn">+10</button>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div>
+            <button id="reset" onclick="reset()">RESET</button>
+        </div>
+        
+        <script src="./index.js"></script>
+    </body>
+</html>
